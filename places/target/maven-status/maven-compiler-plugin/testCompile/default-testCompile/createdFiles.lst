@@ -1,6 +1,6 @@
-wethinkcode/places/PlaceNameServiceTest.class
 wethinkcode/places/PlacesCsvParserTest.class
+wethinkcode/places/PlaceNameServiceTest.class
 wethinkcode/places/PlaceNameApiTest.class
 wethinkcode/places/PlacesTestData.class
-wethinkcode/places/PlaceNameConfigTest.class
 wethinkcode/places/db/memory/PlacesDbTest.class
+wethinkcode/places/PlaceNameConfigTest.class

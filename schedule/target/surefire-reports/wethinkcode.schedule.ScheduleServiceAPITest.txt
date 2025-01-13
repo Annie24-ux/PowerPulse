@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: wethinkcode.schedule.ScheduleServiceAPITest
--------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.616 s - in wethinkcode.schedule.ScheduleServiceAPITest

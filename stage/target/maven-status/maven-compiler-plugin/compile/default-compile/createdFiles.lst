@@ -1,1 +1,5 @@
+wethinkcode/stage/StagePersistence.class
 wethinkcode/stage/StageService.class
+topic/listener.class
+topic/listener$1.class
+topic/StageProducer.class

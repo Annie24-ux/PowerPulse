@@ -12,7 +12,7 @@ import java.util.Objects;
  * Distributed Systems and integration, our assumption is Good Enough.)
  */
 public class Town
-        implements Comparable<Town>
+    implements Comparable<Town>
 {
     private final String name;
 
@@ -35,8 +35,8 @@ public class Town
     public int compareTo( Town other ){
         if( other == null ) throw new NullPointerException();
         return getProvince().equals(other.getProvince() )
-                ? getName().compareTo(other.getName() )
-                : getProvince().compareTo(other.getProvince() );
+            ? getName().compareTo(other.getName() )
+            : getProvince().compareTo(other.getProvince() );
     }
 
     @Override
@@ -54,14 +54,14 @@ public class Town
         if( getClass() != obj.getClass() )return false;
         final Town other = (Town) obj;
         return this.province.equals( other.province )
-                && this.name.equals( other.name );
+            && this.name.equals( other.name );
     }
 
     @Override public String toString(){
         return "Town{"
-                + getName()
-                + ", "
-                + getProvince()
-                + "}";
+            + getName()
+            + ", "
+            + getProvince()
+            + "}";
     }
 }

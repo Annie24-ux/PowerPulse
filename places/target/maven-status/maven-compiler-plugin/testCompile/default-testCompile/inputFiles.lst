@@ -1,6 +1,6 @@
-/home/siphesihle/Development/course_work_y2/submission-loadshedding-3/places/src/test/java/wethinkcode/places/PlaceNameServiceTest.java
-/home/siphesihle/Development/course_work_y2/submission-loadshedding-3/places/src/test/java/wethinkcode/places/PlaceNameConfigTest.java
-/home/siphesihle/Development/course_work_y2/submission-loadshedding-3/places/src/test/java/wethinkcode/places/PlacesCsvParserTest.java
-/home/siphesihle/Development/course_work_y2/submission-loadshedding-3/places/src/test/java/wethinkcode/places/PlaceNameApiTest.java
-/home/siphesihle/Development/course_work_y2/submission-loadshedding-3/places/src/test/java/wethinkcode/places/db/memory/PlacesDbTest.java
-/home/siphesihle/Development/course_work_y2/submission-loadshedding-3/places/src/test/java/wethinkcode/places/PlacesTestData.java
+/home/siphesihle/Development/PowerPulse/places/src/test/java/wethinkcode/places/PlacesTestData.java
+/home/siphesihle/Development/PowerPulse/places/src/test/java/wethinkcode/places/PlaceNameConfigTest.java
+/home/siphesihle/Development/PowerPulse/places/src/test/java/wethinkcode/places/PlaceNameApiTest.java
+/home/siphesihle/Development/PowerPulse/places/src/test/java/wethinkcode/places/PlaceNameServiceTest.java
+/home/siphesihle/Development/PowerPulse/places/src/test/java/wethinkcode/places/db/memory/PlacesDbTest.java
+/home/siphesihle/Development/PowerPulse/places/src/test/java/wethinkcode/places/PlacesCsvParserTest.java

@@ -1,0 +1,5 @@
+wethinkcode/places/PlacesCsvParser.class
+wethinkcode/places/model/Places.class
+wethinkcode/places/db/memory/PlacesDb.class
+wethinkcode/places/PlaceNameService.class
+wethinkcode/places/model/Town.class

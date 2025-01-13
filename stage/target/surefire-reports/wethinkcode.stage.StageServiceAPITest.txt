@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: wethinkcode.stage.StageServiceAPITest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.641 s - in wethinkcode.stage.StageServiceAPITest

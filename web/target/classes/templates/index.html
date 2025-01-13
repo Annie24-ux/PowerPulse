@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> LightInTheSched 💡 </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <a href="#">LightInTheSched 💡</a>
+        </div>
+        <ul class="navbar-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="navbar-toggle" onclick="toggleMenu()">
+            ☰
+        </div>
+    </nav>
+</header>
+<br>
+<br>
+
+
+<div class="stage-container">
+    <div class="stage-box">
+        <h4>Stage: <span id="stage"></span></h4>
+    </div>
+    <h2>⚡ Current Stage</h2>
+</div>
+
+
+
+<div id="form">
+    <form action="/" id="schedule-form">
+        <select id="dropdown">
+            <option>Select a province </option>
+        </select>
+        <select id="towns-options" disabled>
+            <option>Select a town </option>
+        </select>
+        <button type="submit" id="submit" value="Get schedule">View schedule</button>
+    </form>
+</div>
+<div id="schedule-div">
+    <h3 id="day"></h3>
+
+</div>
+<div id="mainContainer"></div>
+
+
+<script src="js/app.js">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/sockjs-client@1.5.1/dist/sockjs.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/stompjs@2.3.3/lib/stomp.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+<footer class="footer">⚡ Siphesihle © 2024</footer>
+</body>
+</html>

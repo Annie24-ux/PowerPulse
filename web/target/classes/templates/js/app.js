@@ -141,7 +141,7 @@ async function fetchSchedule() {
 
 
     if(selectedProvince == "Select a province" ||  selectedTown.length == "Select a province"){
-         alert("Please select a province/town.");
+         alert("Please select a Province/Town.");
          return;
     } else if (!selectedProvince || !selectedTown) {
         return;

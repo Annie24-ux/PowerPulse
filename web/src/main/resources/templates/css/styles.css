@@ -37,8 +37,6 @@ border-radius: 5px;
     font-family: Arial, sans-serif;
 }
 
-
-
 h3 {
     color: #47663B;
 }
@@ -52,11 +50,12 @@ li {
     margin: 5px 0;
 }
 
-.footer {
+footer {
     position: absolute;
     bottom: 0;
     left: 0;
     z-index: 10;
+    justify-content: center;
 }
 
 body {
@@ -173,3 +172,9 @@ ul {
 li {
     margin: 5px 0;
 }
+
+select {
+  border: 2px solid navy-blue;
+  border-radius: 4px;
+}
+

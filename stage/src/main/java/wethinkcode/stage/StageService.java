@@ -23,7 +23,7 @@ import javax.jms.JMSException;
  */
 public class StageService {
 
-    public static final int DEFAULT_STAGE = 0; // No loadshedding. Ha!
+    public static final int DEFAULT_STAGE = 0;
     public static final int DEFAULT_PORT = 7001;
     public static final String MQ_TOPIC_NAME = "stage";
 
@@ -45,7 +45,6 @@ public class StageService {
 
     @VisibleForTesting
     StageService initialise(int initialStage) {
-//        loadSheddingStage = initialStage;
         StageDO persistedStage = new StagePersistence().loadStage();
 
         if (persistedStage != null) {

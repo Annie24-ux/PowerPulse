@@ -27,7 +27,7 @@ import javax.jms.*;
  * (within a given province) at a particular loadshedding stage.
  */
 public class ScheduleService {
-    public static final int DEFAULT_STAGE = 0; // no loadshedding. Ha!
+    public static final int DEFAULT_STAGE = 0;
     public static final int DEFAULT_PORT = 7002;
     public static final String MQ_TOPIC = "stage";
 
@@ -231,7 +231,6 @@ public class ScheduleService {
                         StageDO stageDO = new StageDO(currentStage);
                         stageDO.setStage(currentStage);
                         stagePersistence.saveStage(stageDO);
-                        System.out.println("Receiving message from topic: " + bodyText);
                     } catch (JMSException e) {
                         LoadshedLoggers.severe("Received message of a different instance", e);
                         e.printStackTrace();

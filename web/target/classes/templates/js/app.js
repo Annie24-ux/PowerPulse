@@ -4,7 +4,7 @@ const placesSvcUrl = "http://localhost:7000/";
 const scheduleSvcUrl = "http://localhost:7002/";
 const provinceDropdown = document.querySelector('#dropdown');
 const townDropdown = document.querySelector('#towns-options');
- const scheduleForm = document.getElementById("schedule-form");
+const scheduleForm = document.getElementById("schedule-form");
 
 
 const provincesEndpoint = "provinces";
@@ -138,25 +138,29 @@ function populateTowns(townsData) {
 async function fetchSchedule() {
     const selectedProvince = provinceDropdown.value;
     const selectedTown = townDropdown.value;
-    if (!selectedProvince || !selectedTown) {
-        console.log("No province or town was selected...");
+
+
+    if(selectedProvince == "Select a province" ||  selectedTown.length == "Select a province"){
+         alert("Please select a province/town.");
+         return;
+    } else if (!selectedProvince || !selectedTown) {
         return;
-    }
+    } else {
+          const scheduleEndpoint = `${selectedProvince}/${selectedTown}`;
+            const scheduleUrl = scheduleSvcUrl + scheduleEndpoint;
 
-    const scheduleEndpoint = `${selectedProvince}/${selectedTown}`;
-    const scheduleUrl = scheduleSvcUrl + scheduleEndpoint;
-
-    try {
-        const response = await fetch(scheduleUrl);
-        if (!response.ok) {
-            sendErrorToQueue(`Failed to connect`, "Schedule");
-            throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-        const scheduleData = await response.json();
-        displaySchedule(scheduleData);
-    } catch (error) {
-        handleFetchError(error, "Schedule");
-        console.error('Error fetching schedule:', error);
+            try {
+                const response = await fetch(scheduleUrl);
+                if (!response.ok) {
+                    sendErrorToQueue(`Failed to connect`, "Schedule");
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                const scheduleData = await response.json();
+                displaySchedule(scheduleData);
+            } catch (error) {
+                handleFetchError(error, "Schedule");
+                console.error('Error fetching schedule:', error);
+            }
     }
 }
 

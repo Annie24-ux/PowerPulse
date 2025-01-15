@@ -9,7 +9,17 @@
     <remote-repository>
       <option name="id" value="common_lib" />
       <option name="name" value="Project library" />
+      <option name="url" value="file:////home/siphesihle/Development/Portfolio_build/PowerPulse/web/common" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="common_lib" />
+      <option name="name" value="Project library" />
       <option name="url" value="file:////home/siphesihle/Development/PowerPulse/stage/common" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="common_lib" />
+      <option name="name" value="Project library" />
+      <option name="url" value="file:////home/siphesihle/Development/Portfolio_build/PowerPulse/schedule/common" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="common_lib" />
@@ -24,17 +34,37 @@
     <remote-repository>
       <option name="id" value="common_lib" />
       <option name="name" value="Project library" />
-      <option name="url" value="file:////home/siphesihle/Development/PowerPulse/places/common" />
+      <option name="url" value="file:////home/siphesihle/Development/PowerPulse/web/common" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="common_lib" />
       <option name="name" value="Project library" />
-      <option name="url" value="file:////home/siphesihle/Development/PowerPulse/web/common" />
+      <option name="url" value="file:////home/siphesihle/Development/Portfolio_build/PowerPulse/common/common" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Maven Central repository" />
       <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="common_lib" />
+      <option name="name" value="Project library" />
+      <option name="url" value="file:////home/siphesihle/Development/Portfolio_build/PowerPulse/stage/common" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="common_lib" />
+      <option name="name" value="Project library" />
+      <option name="url" value="file:////home/siphesihle/Development/Portfolio_build/PowerPulse/common" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="common_lib" />
+      <option name="name" value="Project library" />
+      <option name="url" value="file:////home/siphesihle/Development/PowerPulse/places/common" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="common_lib" />
+      <option name="name" value="Project library" />
+      <option name="url" value="file:////home/siphesihle/Development/Portfolio_build/PowerPulse/places/common" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="jboss.community" />

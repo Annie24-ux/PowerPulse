@@ -5,7 +5,7 @@ PowerPulse is a comprehensive web application designed to provide accurate loads
 ## Features
 
 1. **Loadshedding Stage Information:**
-    - **GET /stage:** Retrieve the current loadshedding stage as a JSON object containing an integer value (0 to 8).
+    - **GET /stage:** Retrieve the current loadshedding stage as a JSON object containing an integer value (0 to 8). Any stage outside the range should not go through.
       ```json
       {
         "stage": 4

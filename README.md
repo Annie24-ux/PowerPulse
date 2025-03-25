@@ -145,5 +145,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 Developed by [Sibiya Siphesihle](https://github.com/Annie24-ux).
 
 ---
+A Beacon of light.
 
 For any questions or issues, feel free to open an issue on GitHub or contact the author directly.

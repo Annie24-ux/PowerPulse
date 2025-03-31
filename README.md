@@ -146,5 +146,6 @@ Developed by [Sibiya Siphesihle](https://github.com/Annie24-ux).
 
 ---
 A Beacon of light.
+Needed at the darkest hour, literally.
 
 For any questions or issues, feel free to open an issue on GitHub or contact the author directly.
